@@ -80,14 +80,14 @@
  - The project will have two flavours - "prod" and "dev," each with distinct configurations:
  - prod Flavor:
     - Uses the "prod-db" Firestore database.
-    - Applies a specific theme for the production environment.
+    - Apply a specific theme for the production environment.
  - dev Flavor:
    - Uses the "dev-db" Firestore database.
-   - Applies a different theme for the development environment.
+   - Apply a different theme for the development environment.
 
 # Genrate apk/bundle
 ### Practical 6
-#### Genrate Apk & bundle
+#### Genrate Apk & bundle on gitlab
  - Generate APK/bundle of [Practical 26](https://github.com/canopas/android-developer-roadmap-2023#practical-26)
  - Create a GitLab repository for the Practical if one doesn't already exist.
  - Configure the script to: 
@@ -96,7 +96,7 @@
     - Save the generated APK as a job artificat.
 
 ### Practical 7
-#### Genrate Apk & bundle
+#### Genrate Apk & bundle on github
  - Generate APK/bundle of [Practical 25](https://github.com/canopas/android-developer-roadmap-2023#practical-25) 
  - Create a GitHub repository for the Practical if one doesn't already exist.
  - Configure GitHub Actions Workflow script to: 
@@ -106,14 +106,14 @@
 
 # Signing apk/bundle
 ### Practical 8
-#### Genrate signed Apk & bundle
+#### Genrate signed Apk & bundle on gitlab
  - Generate signed APK/bundle of [Practical 29](https://github.com/canopas/android-developer-roadmap-2023#practical-29)
  - Automate the build generation using a GitLab CI/CD script.
  - Store the keystore and credentials as environment variables for security.
  - The script should run on merging MRs.
 
 ### Practical 9
-#### Genrate signed Apk & bundle
+#### Genrate signed Apk & bundle on github
 - Generate signed APK/bundle of [Practical 21](https://github.com/canopas/android-developer-roadmap-2023#practical-21)
 - Write GitHub Action to genrate build
   - Create a repository on GitHub
@@ -124,14 +124,14 @@
 
 # Automate testing
 ### Practical 10
-#### Unit testing
+#### Unit testing on gitlab
 - Write GitLab CI script to run the unit test of [Practical 24](https://github.com/canopas/android-developer-roadmap-2023#practical-24)
   - Create a repository on GitLab
   - Automate unit testing with GitLab CI
   - It should run on each commit
 
 ### Practical 11
-#### Unit testing
+#### Unit testing on github
 - Write GitHub Action flow to run the unit test of [Practical 24](https://github.com/canopas/android-developer-roadmap-2023#practical-24)
   - Create a repository on GitHub
   - Automate unit testing with GitHub CI
