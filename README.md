@@ -61,7 +61,6 @@
   - Every viewModel should have Unit tests
   - Every ViewModel's constructor parameter has a name derived from the class name
   - ViewModel should not have context in the constructor parameter
-  - Model package should not contain data classes
   - Viewmodel should be Annoted by `HiltViewModel`
   - Viewmodel should not have an `android` package
 - Write GitHub Action to run lint
